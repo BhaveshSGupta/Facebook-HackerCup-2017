@@ -1,0 +1,4 @@
+Steps to do,
+First is to make a python program to read and write from a file.
+Second For this problem algorithm to see whether a point is outside of circle or not.
+Third
