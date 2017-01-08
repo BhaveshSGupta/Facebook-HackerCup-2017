@@ -139,7 +139,7 @@ Case #138: black
 Case #139: white
 Case #140: black
 Case #141: black
-Case #142: black
+Case #142: white
 Case #143: white
 Case #144: white
 Case #145: white
@@ -236,10 +236,10 @@ Case #235: black
 Case #236: white
 Case #237: white
 Case #238: white
-Case #239: black
+Case #239: white
 Case #240: black
 Case #241: white
-Case #242: black
+Case #242: white
 Case #243: white
 Case #244: black
 Case #245: black
@@ -319,7 +319,7 @@ Case #318: black
 Case #319: white
 Case #320: black
 Case #321: white
-Case #322: black
+Case #322: white
 Case #323: black
 Case #324: white
 Case #325: black
@@ -371,7 +371,7 @@ Case #370: black
 Case #371: black
 Case #372: white
 Case #373: white
-Case #374: black
+Case #374: white
 Case #375: white
 Case #376: white
 Case #377: black
@@ -421,7 +421,7 @@ Case #420: black
 Case #421: white
 Case #422: black
 Case #423: black
-Case #424: black
+Case #424: white
 Case #425: white
 Case #426: black
 Case #427: black
@@ -489,7 +489,7 @@ Case #488: white
 Case #489: white
 Case #490: black
 Case #491: white
-Case #492: black
+Case #492: white
 Case #493: black
 Case #494: white
 Case #495: black
@@ -525,7 +525,7 @@ Case #524: white
 Case #525: white
 Case #526: white
 Case #527: black
-Case #528: black
+Case #528: white
 Case #529: white
 Case #530: white
 Case #531: white
@@ -620,7 +620,7 @@ Case #619: black
 Case #620: white
 Case #621: white
 Case #622: black
-Case #623: black
+Case #623: white
 Case #624: white
 Case #625: black
 Case #626: black
@@ -644,7 +644,7 @@ Case #643: black
 Case #644: white
 Case #645: white
 Case #646: white
-Case #647: black
+Case #647: white
 Case #648: black
 Case #649: white
 Case #650: black
@@ -794,7 +794,7 @@ Case #793: black
 Case #794: white
 Case #795: white
 Case #796: white
-Case #797: black
+Case #797: white
 Case #798: black
 Case #799: white
 Case #800: black
@@ -883,7 +883,7 @@ Case #882: white
 Case #883: white
 Case #884: white
 Case #885: white
-Case #886: black
+Case #886: white
 Case #887: white
 Case #888: white
 Case #889: white
