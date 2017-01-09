@@ -1,10 +1,11 @@
 import java.util.*;
 import java.io.*;
 import java.nio.charset.Charset;
-public class Test 
+public class Program 
 {
 	public static void main(String[] args)
 	{
+		// long startTime = System.currentTimeMillis();
 		try
 		{
 			InputStream in = new FileInputStream(args[0]);
@@ -14,7 +15,6 @@ public class Test
 			FileOutputStream out = new FileOutputStream(fout);
  			BufferedWriter bufw = new BufferedWriter(new OutputStreamWriter(out));
 			int count = 0;
-			//int nMax = 0;
 			String line = br.readLine();
 			int T = Integer.parseInt(line);
 			while (count < T) {
@@ -47,6 +47,9 @@ public class Test
 		{
 			
 		}
+		// long endTime   = System.currentTimeMillis();
+// long totalTime = endTime - startTime;
+// System.out.println(totalTime);
 	}
 	public static float pointToAngle(int xCall, int yCall) {
 		return (float) Math.toDegrees(Math.atan2(xCall - 50, yCall - 50));
@@ -57,7 +60,10 @@ public class Test
 	}
 	public static boolean pieProgress(int percentageCall, int xCall, int yCall)
 	{
-        if percentageCall == 0 return false;S
+        if (percentageCall == 0) return false;
+        if (percentageCall < 75 & percentageCall >= 50 & xCall < 50 & yCall >= 50) return false;
+		if (percentageCall <= 50 & percentageCall >= 25 & xCall < 50) return false;
+		if (percentageCall <= 25 & (xCall < 50 | yCall < 50)) return false;
 		float dist = getDist(xCall, yCall);
 		if(dist > 50) return false;
 		float angle = pointToAngle(xCall, yCall);
@@ -66,4 +72,5 @@ public class Test
 			return false;
 		return true;
 	}
-}
+
+} 

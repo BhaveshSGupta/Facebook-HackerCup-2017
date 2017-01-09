@@ -4,13 +4,14 @@ import java.nio.charset.Charset;
 public class Test 
 {
 	public static void main(String[] args)
-	{
+	{		
+		// long startTime = System.currentTimeMillis();
 		try
 		{
-			InputStream fis = new FileInputStream("input.txt");
+			InputStream fis = new FileInputStream("progress_pie_input.txt");
 			InputStreamReader isr = new InputStreamReader(fis, Charset.forName("UTF-8"));
 			BufferedReader br = new BufferedReader(isr);
-			File fout = new File("output2.txt");
+			File fout = new File("output5.txt");
 			FileOutputStream fos = new FileOutputStream(fout);
  			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos));
 			int nCounter = 0;
@@ -52,7 +53,9 @@ public class Test
 		{
 			
 		}
-		
+// 		long endTime   = System.currentTimeMillis();
+// long totalTime = endTime - startTime;
+// System.out.println(totalTime);
 		/*
 		for(int nIdx =0; nIdx < nNumber; nIdx++)
 		{
