@@ -37,32 +37,41 @@ public class Program
 					}
 				}
 
-				bufw.write("Case #" + (count+1) + " "+N+" Array :");
+				
 				iCount=0;
 				while(iCount!=N){
 					//line = br.readLine();
-					bufw.write(W[iCount]+" ");
+					//bufw.write(W[iCount]+" ");
 					iCount++;
 				}
 				int totalPending=N;
 				int trips=0;
 				int topItem=0;
 				while(totalPending>0){
-		trips++;
+					
+
 					float weight=(float)50/(float)W[topItem];
 		//System.out.println("Weight "+weight+" topItem "+W[topItem]+" floor "+Math.floor(weight)+" ceil "+(int)Math.ceil(weight));
 		int usedInThisTrip=(int)Math.ceil(weight);
 		//((int)Math.ceil(weight)>1){
+		if(totalPending>=usedInThisTrip){
 		totalPending-=usedInThisTrip;
 		topItem++;	
 		//totalPending--;		
-	
+		trips++;	
+		}
+		else{
+			totalPending=0;
+		}
+
+
 
 				}
-
-		System.out.println(" trips "+trips);
-					bufw.newLine();		
+				//System.out.println(" trips "+trips);
+				bufw.write("Case #" + (count+1)+": "+trips);
+				bufw.newLine();		
 				bufw.flush();
+				
 				count++;
 			}					
 		} catch (Exception e) {
