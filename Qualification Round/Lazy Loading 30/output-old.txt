@@ -1,0 +1,5 @@
+Case #1 4 Array :30 30 1 1 
+Case #2 3 Array :20 20 20 
+Case #3 11 Array :11 10 9 8 7 6 5 4 3 2 1 
+Case #4 6 Array :59 49 39 29 19 9 
+Case #5 10 Array :91 85 76 71 60 56 47 44 32 8 
